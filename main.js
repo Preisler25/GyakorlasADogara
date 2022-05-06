@@ -26,8 +26,8 @@ for (let i = 0; i < temp ; i++){ //i 0 val kezdővik és annyiszor fut le ami a 
 }
 //listák ismétlés
 let mainlist = [] //létre hozzunk egy üres listát
-mainlist.push("alma"); //hozzáadjuk a 0.indexre "almát"
-mainlist.push("körte"); //hozzáadjuk a 1.indexre "körtét"
+mainlist.push("alma"); //hozzáadjuk a 0. indexre "almát"
+mainlist.push("körte"); //hozzáadjuk a 1. indexre "körtét"
 console.log(mainlist); //a consolba ezt fogod látni ==> ['alma', 'körte']
 
 //if ismétlés
