@@ -2,7 +2,7 @@
 function pelda1(){
     console.log("valami");
 }
-pelda1() // <== meghivás (ki alerteli hogy: nagyon ügyesen gyakorlok)
+pelda1() // <== meghivás (kiírja a consoleba hogy: valami)
 
 function pelda2(num1, num2){
     alert(num1*num2);
@@ -22,12 +22,12 @@ for (let i = 20; i < 101; i++){ //20szal kezdődik -> 100ig megy mert amikor i=(
 
 let temp = prompt("hány órát gyakoróltál?"); //létre hozzunk egy temp változót ami egyenlő lesz a USERtől kapot számmal
 for (let i = 0; i < temp ; i++){ //i 0 val kezdővik és annyiszor fut le ami a tempben van.
-    console.log("+1 órát gyakoroltam");//ki írja a consoleba hogy "+1 óra"
+    console.log("+1 óra");//ki írja a consoleba hogy "+1 óra"
 }
 //listák ismétlés
 let mainlist = [] //létre hozzunk egy üres listát
-mainlist.push("alma"); //hozzáadjuk a 0adik indexre "almát"
-mainlist.push("körte"); //hozzáadjuk a 1adik indexre "körtét"
+mainlist.push("alma"); //hozzáadjuk a 0. indexre "almát"
+mainlist.push("körte"); //hozzáadjuk a 1. indexre "körtét"
 console.log(mainlist); //a consolba ezt fogod látni ==> ['alma', 'körte']
 
 //if ismétlés
