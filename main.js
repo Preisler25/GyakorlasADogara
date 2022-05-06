@@ -22,7 +22,7 @@ for (let i = 20; i < 101; i++){ //20szal kezdődik -> 100ig megy mert amikor i=(
 
 let temp = prompt("hány órát gyakoróltál?"); //létre hozzunk egy temp változót ami egyenlő lesz a USERtől kapot számmal
 for (let i = 0; i < temp ; i++){ //i 0 val kezdővik és annyiszor fut le ami a tempben van.
-    console.log("+1 órá");//ki írja a consoleba hogy "+1 óra"
+    console.log("+1 óra");//ki írja a consoleba hogy "+1 óra"
 }
 //listák ismétlés
 let mainlist = [] //létre hozzunk egy üres listát
