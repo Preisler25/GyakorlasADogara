@@ -9,13 +9,14 @@ for (let i = 0; i < temp ; i++){console.log(`${i} + teszt`);} //3p a pont arra j
 //harmadik feladat (5p)
 let mainlist = [] //1p
 const threea = (list, w)=>{list.push(w)} //2p pont a helyes megoldásra és a func használatára jár 
-const threeb = (list, w)=>{log(list.indexOf(w))} //2p pont a helyes megoldásra és a func használatára jár 
+const threeb = (list, w)=>{return(list.indexOf(w))} //2p pont a helyes megoldásra és a func használatára jár 
 //negyedik feladat (4p)
 const four = (num1, num2)=>{ //1p pont a func használatára jár 
     if(num1 == num2){return true}//2p a pont helyes feltételre valamint a returnre jár
     else{return false}//1p a pont a returnre jár
 }
-const main = ()=>{onea();oneb(6, 2);onec(5);three(mainlist, "alma");four(1,3);}
+const main = ()=>{onea();oneb(6, 2);onec(5);threea(mainlist, "alma");threeb(mainlist, "alma");console.log(four(1,3));console.log(four(1,1));}
+main()
 //24-21 ==> 5
 //20-16 ==> 4
 //15-12 ==> 3
