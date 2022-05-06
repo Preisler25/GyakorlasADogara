@@ -2,7 +2,7 @@
 function pelda1(){
     console.log("valami");
 }
-pelda1() // <== meghivás (ki alerteli hogy: valami)
+pelda1() // <== meghivás (kiírja a consoleba hogy: valami)
 
 function pelda2(num1, num2){
     alert(num1*num2);
